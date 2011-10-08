@@ -80,7 +80,7 @@
         </div>
 
         <script id="template" type="text/x-jquery-tmpl">
-        <li><img alt='\${fromUser}' title='\${fromUser}' src='\${profileImageUrl}' width='48' height='48'><div><c:out value='\${text}'/></div></li>
+        <li><a href="http://twitter.com/\${fromUser}" target='_blank'><img alt='\${fromUser}' title='\${fromUser}' src='\${profileImageUrl}' width='48' height='48'><div><c:out value='\${text}'/></div></a></li>
         </script>
 
         <script type="text/javascript">
